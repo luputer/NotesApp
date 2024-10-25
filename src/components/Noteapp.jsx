@@ -14,7 +14,7 @@ const Noteapp = () => {
     setTimeout(() => {
       setNotes([newNote, ...notes]);
       setLoding(false);
-    }, 5000);
+    }, 300);
   };
 
   const deleteNote = (id) => {
